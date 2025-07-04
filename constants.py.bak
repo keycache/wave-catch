@@ -1,0 +1,16 @@
+import os
+
+# Configuration
+SAMPLE_RATE = 44100
+CHANNELS = 1
+DTYPE = 'int16'
+BLOCK_SIZE = 1024
+
+MODEL_NAME = "YOUR_MODEL_NAME_HERE"  # Replace with your actual model name
+LLM_URL = "YOUR_LLM_URL_HERE"  # Replace with your actual LLM URL
+
+BASE_TRANSCRIPT_FOLDER = "fully/qualified/path/to/transcript/folder"
+BASE_AUDIO_FOLDER = "fully/qualified/path/to/audio/folder"
+
+DEFAULT_AUDIO_FILE_PATH = os.path.join(BASE_AUDIO_FOLDER, "output.wav")
+DEFAULT_TRANSCRIPT_FILE_PATH = os.path.join(BASE_TRANSCRIPT_FOLDER, "transcript.txt")

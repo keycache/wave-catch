@@ -1,0 +1,14 @@
+certifi==2025.4.26
+cffi==1.17.1
+charset-normalizer==3.4.2
+idna==3.10
+markdown-it-py==3.0.0
+mdurl==0.1.2
+numpy==2.3.0
+pycparser==2.22
+Pygments==2.19.1
+requests==2.32.4
+rich==14.0.0
+scipy==1.15.3
+sounddevice==0.5.2
+urllib3==2.4.0
